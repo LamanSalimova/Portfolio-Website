@@ -23,16 +23,14 @@ export default function Projects() {
       title: "BMI Website",
       demoLink: "https://bmi-react-website.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/BMI-React",
-      // description: "Design & Development",
       imgUrl: proImage8,
     },
 
     {
       title: "E-Commerce Website",
-      demoLink: "https://remarkable-dieffenbachia-a98169.netlify.app",
+      demoLink: "https://lucky-react.netlify.app/",
       githubLink:
         "https://github.com/LamanSalimova/E-Commerce-Multi-Page-Website",
-      // description: "Design & Development",
       imgUrl: proImage3,
     },
     {
@@ -45,14 +43,12 @@ export default function Projects() {
       title: "Bank Website",
       demoLink: "https://sunny-puffpuff-303eec.netlify.app",
       githubLink: "https://github.com/LamanSalimova/MyBank-App",
-      // description: "Design & Development",
       imgUrl: proImage2,
     },
     {
       title: "Todo Application",
       demoLink: "https://eclectic-concha-38fabf.netlify.app",
       githubLink: "https://github.com/LamanSalimova/React-Todo-App-",
-      // description: "Design & Development",
       imgUrl: proImage4,
     },
 
@@ -60,7 +56,6 @@ export default function Projects() {
       title: "TypeScript Notes App",
       demoLink: "https://notes-app-react-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/TypeScript-Notes-App",
-      // description: "Design & Development",
       imgUrl: proImage6,
     },
     {
