@@ -410,6 +410,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
+  width: 100%;
+  height: 240px;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
@@ -425,6 +427,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.4s ease-in-out;
 }
 .proj-imgbx:hover::before {
+  height: 100%;
+}
+.proj-imgbx img {
+  width: 100%;
   height: 100%;
 }
 .proj-txtx {

@@ -6,7 +6,7 @@ export default function ProjectCard({ title, demoLink, githubLink, imgUrl }) {
       <div className="proj-imgbx">
         <img src={imgUrl} alt={title} />
         <div className="proj-txtx">
-          {/* <h4>{title}</h4> */}
+          <h4>{title}</h4>
           <a href={demoLink} target="blank" className="demo">
             Demo
           </a>

@@ -10,6 +10,8 @@ import img5 from "../../src/assets/images/bootstrap.png";
 import img6 from "../../src/assets/images/js.png";
 import img7 from "../../src/assets/images/react.png";
 import img8 from "../../src/assets/images/github2.png";
+import img9 from "../../src/assets/images/tsLogo.png";
+import img10 from "../../src/assets/images/reduxLogo.png";
 export default function Skills() {
   const responsive = {
     superLargeDesktop: {
@@ -91,6 +93,21 @@ export default function Skills() {
                   </div>
 
                   <h5>React Js</h5>
+                </div>
+
+                <div className="item">
+                  <div className="img-box">
+                    <img src={img9} alt="img" />
+                  </div>
+
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <div className="img-box">
+                    <img src={img10} alt="img" />
+                  </div>
+
+                  <h5>Redux Toolkit</h5>
                 </div>
                 <div className="item">
                   <div className="img-box">
