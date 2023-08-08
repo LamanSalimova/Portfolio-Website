@@ -10,9 +10,11 @@ import proImage5 from "../assets/images/aurum.png";
 import proImage6 from "../assets/images/notesApp.png";
 import proImage7 from "../assets/images/shoppingCart.png";
 import proImage8 from "../assets/images/bmi.png";
+import proImage9 from "../assets/images/socialAppDark.png";
 export default function Projects() {
   const projects = [
     {
+      id: 1,
       title: "Portfolio Website",
       demoLink: "#",
       githubLink: "https://github.com/LamanSalimova/MyBank-App",
@@ -20,6 +22,7 @@ export default function Projects() {
     },
 
     {
+      id: 2,
       title: "BMI Website",
       demoLink: "https://bmi-react-website.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/BMI-React",
@@ -27,6 +30,7 @@ export default function Projects() {
     },
 
     {
+      id: 3,
       title: "E-Commerce Website",
       demoLink: "https://lucky-react.netlify.app/",
       githubLink:
@@ -34,18 +38,29 @@ export default function Projects() {
       imgUrl: proImage3,
     },
     {
+      id: 4,
       title: "AuRum",
       demoLink: "https://aurum-react.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/AuRum",
       imgUrl: proImage5,
     },
     {
+      id: 5,
       title: "Bank Website",
       demoLink: "https://sunny-puffpuff-303eec.netlify.app",
       githubLink: "https://github.com/LamanSalimova/MyBank-App",
       imgUrl: proImage2,
     },
     {
+      id: 6,
+      title: "React Social Media App",
+      demoLink: "https://react-socialmediaapp.netlify.app/",
+      githubLink: "https://github.com/LamanSalimova/React-Social-Media-App",
+      // description: "Design & Development",
+      imgUrl: proImage9,
+    },
+    {
+      id: 7,
       title: "Todo Application",
       demoLink: "https://eclectic-concha-38fabf.netlify.app",
       githubLink: "https://github.com/LamanSalimova/React-Todo-App-",
@@ -53,12 +68,14 @@ export default function Projects() {
     },
 
     {
+      id: 8,
       title: "TypeScript Notes App",
       demoLink: "https://notes-app-react-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/TypeScript-Notes-App",
       imgUrl: proImage6,
     },
     {
+      id: 9,
       title: "TypeScript Shopping-Cart",
       demoLink: "https://shopping-cart-vite-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/Shopping-cart",
