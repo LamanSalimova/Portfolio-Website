@@ -4,13 +4,14 @@ import { Col, Row, Container, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import proImage1 from "../assets/images/proImage1.png";
 import proImage2 from "../assets/images/bankApp.png";
-import proImage3 from "../assets/images/lucky.png";
+// import proImage3 from "../assets/images/lucky.png";
 import proImage4 from "../assets/images/todoApp.png";
 import proImage5 from "../assets/images/aurum.png";
 import proImage6 from "../assets/images/notesApp.png";
 import proImage7 from "../assets/images/shoppingCart.png";
 import proImage8 from "../assets/images/bmi.png";
 import proImage9 from "../assets/images/socialAppDark.png";
+import proImage10 from "../assets/images/createx.png";
 export default function Projects() {
   const projects = [
     {
@@ -32,10 +33,9 @@ export default function Projects() {
     {
       id: 3,
       title: "E-Commerce Website",
-      demoLink: "https://lucky-react.netlify.app/",
-      githubLink:
-        "https://github.com/LamanSalimova/E-Commerce-Multi-Page-Website",
-      imgUrl: proImage3,
+      demoLink: "https://react-redux-e-commerce-website.netlify.app/",
+      githubLink: "https://github.com/LamanSalimova/React-E-Commerce-Website",
+      imgUrl: proImage10,
     },
     {
       id: 4,
@@ -59,8 +59,16 @@ export default function Projects() {
       // description: "Design & Development",
       imgUrl: proImage9,
     },
+    // {
+    //   id: 7,
+    //   title: "E-Commerce Website",
+    //   demoLink: "https://lucky-react.netlify.app/",
+    //   githubLink:
+    //     "https://github.com/LamanSalimova/E-Commerce-Multi-Page-Website",
+    //   imgUrl: proImage3,
+    // },
     {
-      id: 7,
+      id: 8,
       title: "Todo Application",
       demoLink: "https://eclectic-concha-38fabf.netlify.app",
       githubLink: "https://github.com/LamanSalimova/React-Todo-App-",
@@ -68,14 +76,14 @@ export default function Projects() {
     },
 
     {
-      id: 8,
+      id: 9,
       title: "TypeScript Notes App",
       demoLink: "https://notes-app-react-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/TypeScript-Notes-App",
       imgUrl: proImage6,
     },
     {
-      id: 9,
+      id: 10,
       title: "TypeScript Shopping-Cart",
       demoLink: "https://shopping-cart-vite-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/Shopping-cart",
