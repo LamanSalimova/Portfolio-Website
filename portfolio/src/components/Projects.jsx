@@ -13,6 +13,8 @@ import proImage8 from "../assets/images/bmi.png";
 import proImage9 from "../assets/images/socialAppDark.png";
 import proImage10 from "../assets/images/createx.png";
 import proImage11 from "../assets/images/taskManagment.png";
+import proImage12 from "../assets/images/proImg11.png";
+
 export default function Projects() {
   const projects = [
     {
@@ -45,15 +47,23 @@ export default function Projects() {
       githubLink: "https://github.com/LamanSalimova/AuRum",
       imgUrl: proImage5,
     },
+
     {
       id: 5,
+      title: "Atelier Website",
+      demoLink: "https://atelier-react-preview.netlify.app/shop",
+      githubLink: "https://github.com/DigitalhandsMMC/AtelierReact",
+      imgUrl: proImage12,
+    },
+    {
+      id: 6,
       title: "Bank Website",
       demoLink: "https://sunny-puffpuff-303eec.netlify.app",
       githubLink: "https://github.com/LamanSalimova/MyBank-App",
       imgUrl: proImage2,
     },
     {
-      id: 6,
+      id: 7,
       title: "React Social Media App",
       demoLink: "https://react-socialmediaapp.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/React-Social-Media-App",
@@ -61,14 +71,14 @@ export default function Projects() {
       imgUrl: proImage9,
     },
     {
-      id: 7,
+      id: 8,
       title: "Task Managment App",
       demoLink: "https://react-task-managment-app.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/React-task-managment-app",
       imgUrl: proImage11,
     },
     {
-      id: 8,
+      id: 9,
       title: "Todo Application",
       demoLink: "https://eclectic-concha-38fabf.netlify.app",
       githubLink: "https://github.com/LamanSalimova/React-Todo-App-",
@@ -76,14 +86,14 @@ export default function Projects() {
     },
 
     {
-      id: 9,
+      id: 10,
       title: "TypeScript Notes App",
       demoLink: "https://notes-app-react-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/TypeScript-Notes-App",
       imgUrl: proImage6,
     },
     {
-      id: 10,
+      id: 11,
       title: "TypeScript Shopping-Cart",
       demoLink: "https://shopping-cart-vite-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/Shopping-cart",
@@ -128,7 +138,7 @@ export default function Projects() {
                       .map((project, index) => {
                         return <ProjectCard key={index} {...project} />;
                       })
-                      .slice(0, 5)}
+                      .slice(0, 6)}
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
@@ -137,7 +147,7 @@ export default function Projects() {
                       .map((project, index) => {
                         return <ProjectCard key={index} {...project} />;
                       })
-                      .slice(5)}
+                      .slice(6)}
                   </Row>
                 </Tab.Pane>
               </Tab.Content>
