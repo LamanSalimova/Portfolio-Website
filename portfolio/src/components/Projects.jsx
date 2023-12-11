@@ -12,6 +12,7 @@ import proImage7 from "../assets/images/shoppingCart.png";
 import proImage8 from "../assets/images/bmi.png";
 import proImage9 from "../assets/images/socialAppDark.png";
 import proImage10 from "../assets/images/createx.png";
+import proImage11 from "../assets/images/taskManagment.png";
 export default function Projects() {
   const projects = [
     {
@@ -59,14 +60,13 @@ export default function Projects() {
       // description: "Design & Development",
       imgUrl: proImage9,
     },
-    // {
-    //   id: 7,
-    //   title: "E-Commerce Website",
-    //   demoLink: "https://lucky-react.netlify.app/",
-    //   githubLink:
-    //     "https://github.com/LamanSalimova/E-Commerce-Multi-Page-Website",
-    //   imgUrl: proImage3,
-    // },
+    {
+      id: 7,
+      title: "Task Managment App",
+      demoLink: "https://react-task-managment-app.netlify.app/",
+      githubLink: "https://github.com/LamanSalimova/React-task-managment-app",
+      imgUrl: proImage11,
+    },
     {
       id: 8,
       title: "Todo Application",

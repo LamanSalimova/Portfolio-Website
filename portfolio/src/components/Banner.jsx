@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import img from "../assets/images/bannerImg.png";
+import img2 from "../assets/images/bannerImg2.png";
+import img3 from "../assets/images/bannerImg3.png";
 import doc from "../assets/CV/CV.pdf";
 import { useState, useEffect } from "react";
 
