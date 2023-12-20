@@ -8,7 +8,6 @@ import proImage2 from "../assets/images/bankApp.png";
 import proImage4 from "../assets/images/todoApp.png";
 import proImage5 from "../assets/images/aurum.png";
 import proImage6 from "../assets/images/notesApp.png";
-import proImage7 from "../assets/images/shoppingCart.png";
 import proImage8 from "../assets/images/bmi.png";
 import proImage9 from "../assets/images/socialAppDark.png";
 import proImage10 from "../assets/images/createx.png";
@@ -91,14 +90,6 @@ export default function Projects() {
       demoLink: "https://notes-app-react-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/TypeScript-Notes-App",
       imgUrl: proImage6,
-    },
-    {
-      id: 11,
-      title: "TypeScript Shopping-Cart",
-      demoLink: "https://shopping-cart-vite-ts.netlify.app/",
-      githubLink: "https://github.com/LamanSalimova/Shopping-cart",
-      // description: "Design & Development",
-      imgUrl: proImage7,
     },
   ];
   return (
