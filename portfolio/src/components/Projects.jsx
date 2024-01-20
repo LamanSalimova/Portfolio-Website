@@ -13,6 +13,7 @@ import proImage9 from "../assets/images/socialAppDark.png";
 import proImage10 from "../assets/images/createx.png";
 import proImage11 from "../assets/images/taskManagment.png";
 import proImage12 from "../assets/images/proImg11.png";
+import proImage13 from "../assets/images/dashboard.png";
 
 export default function Projects() {
   const projects = [
@@ -56,11 +57,18 @@ export default function Projects() {
     },
     {
       id: 6,
-      title: "Bank Website",
-      demoLink: "https://sunny-puffpuff-303eec.netlify.app",
-      githubLink: "https://github.com/LamanSalimova/MyBank-App",
-      imgUrl: proImage2,
+      title: "Admin Dashboard",
+      demoLink: "https://admin-dashb0ard-react.netlify.app/",
+      githubLink: "https://github.com/LamanSalimova/React-Admin-Dashboard",
+      imgUrl: proImage13,
     },
+    // {
+    //   id: 61,
+    //   title: "Bank Website",
+    //   demoLink: "https://sunny-puffpuff-303eec.netlify.app",
+    //   githubLink: "https://github.com/LamanSalimova/MyBank-App",
+    //   imgUrl: proImage2,
+    // },
     {
       id: 7,
       title: "React Social Media App",
