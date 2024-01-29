@@ -1,10 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import { MailchimpForm } from "./MailchimpForm";
-// import logo from "../assets/img/logo.svg";
-// import navIcon1 from "../assets/img/nav-icon1.svg";
-// import navIcon2 from "../assets/img/nav-icon2.svg";
-// import navIcon3 from "../assets/img/nav-icon3.svg";
 import { GrLinkedinOption } from "react-icons/gr";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
@@ -40,7 +35,7 @@ export default function Footer() {
                 <AiFillGithub />
               </a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright 2024. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import img from "../assets/images/bannerImg.png";
-import img2 from "../assets/images/bannerImg2.png";
-import img3 from "../assets/images/bannerImg3.png";
+import img from "../assets/images/mainIconsdark.svg";
 import doc from "../assets/CV/CV.pdf";
 import { useState, useEffect } from "react";
+import StarBackground from "./StarBackground";
 
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
@@ -45,6 +44,7 @@ export default function Banner() {
 
   return (
     <section className="banner" id="home">
+      <StarBackground />
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={6}>
@@ -53,9 +53,8 @@ export default function Banner() {
               {`Hi! I'm Laman`} <span className="wrap">{text}</span>
             </h1>
             <p>
-              I'm a Front-End Developer with experience in creating
-              user-friendly websites and applications. I specialize in HTML,
-              CSS, JavaScript and ReactJS.
+              As a seasoned Frontend React Developer, I thrive on crafting
+              sophisticated and responsive web interfaces.{" "}
             </p>
             <button
               onClick={() => console.log("download")}
@@ -71,6 +70,7 @@ export default function Banner() {
           </Col>
         </Row>
       </Container>
+      {/* <StarBackground /> */}
     </section>
   );
 }

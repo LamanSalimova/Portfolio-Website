@@ -3,8 +3,6 @@ import Nav from "react-bootstrap/Nav";
 import { Col, Row, Container, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import proImage1 from "../assets/images/proImage1.png";
-import proImage2 from "../assets/images/bankApp.png";
-// import proImage3 from "../assets/images/lucky.png";
 import proImage4 from "../assets/images/todoApp.png";
 import proImage5 from "../assets/images/aurum.png";
 import proImage6 from "../assets/images/notesApp.png";

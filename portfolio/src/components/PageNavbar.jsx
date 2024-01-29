@@ -64,7 +64,7 @@ export default function PageNavbar() {
             >
               Projects
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#contact"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
@@ -72,7 +72,7 @@ export default function PageNavbar() {
               onClick={() => onUpdateActiveLink("contact")}
             >
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
