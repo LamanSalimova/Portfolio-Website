@@ -14,6 +14,7 @@ import proImage10 from "../assets/images/createx.png";
 import proImage11 from "../assets/images/taskManagment.png";
 import proImage12 from "../assets/images/proImg11.png";
 import proImage13 from "../assets/images/dashboard.png";
+import proImage14 from "../assets/images/expense-tr-app.png";
 
 export default function Projects() {
   const projects = [
@@ -98,6 +99,14 @@ export default function Projects() {
       demoLink: "https://notes-app-react-ts.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/TypeScript-Notes-App",
       imgUrl: proImage6,
+    },
+    {
+      id: 11,
+      title: "Next Js Expense Tracker App",
+      demoLink: "https://expense-tracker-app-next-js.netlify.app/",
+      githubLink:
+        "https://github.com/LamanSalimova/Next-JS-Expense-Tracker-App",
+      imgUrl: proImage14,
     },
   ];
   return (
