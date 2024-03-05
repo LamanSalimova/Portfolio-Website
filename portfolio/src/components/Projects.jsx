@@ -86,7 +86,7 @@ export default function Projects() {
     {
       id: 9,
       title: "Todo Application",
-      demoLink: "https://eclectic-concha-38fabf.netlify.app",
+      demoLink: "https://react-vite-todoapp.netlify.app/",
       githubLink: "https://github.com/LamanSalimova/React-Todo-App-",
       imgUrl: proImage4,
     },
